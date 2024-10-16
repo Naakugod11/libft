@@ -6,13 +6,11 @@
 /*   By: dgulec <dgulec@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/13 15:30:21 by dgulec            #+#    #+#             */
-/*   Updated: 2024/10/14 17:14:55 by dgulec           ###   ########.fr       */
+/*   Updated: 2024/10/15 19:10:52 by dgulec           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stddef.h>
-#include <stdlib.h>
 
 char	*ft_strjoin(char const *s1, char const *s2)
 {

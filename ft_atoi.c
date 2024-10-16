@@ -6,9 +6,11 @@
 /*   By: dgulec <dgulec@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/11 21:23:04 by dgulec            #+#    #+#             */
-/*   Updated: 2024/10/14 17:09:09 by dgulec           ###   ########.fr       */
+/*   Updated: 2024/10/15 19:12:27 by dgulec           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "libft.h"
 
 int	ft_atoi(const char *str)
 {

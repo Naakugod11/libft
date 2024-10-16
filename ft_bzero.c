@@ -6,12 +6,11 @@
 /*   By: dgulec <dgulec@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/10 16:29:58 by dgulec            #+#    #+#             */
-/*   Updated: 2024/10/14 14:48:18 by dgulec           ###   ########.fr       */
+/*   Updated: 2024/10/15 19:12:16 by dgulec           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stddef.h>
 
 void	ft_bzero(void *s, size_t n)
 {

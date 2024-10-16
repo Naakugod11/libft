@@ -6,13 +6,11 @@
 /*   By: dgulec <dgulec@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/11 23:33:43 by dgulec            #+#    #+#             */
-/*   Updated: 2024/10/14 10:49:23 by dgulec           ###   ########.fr       */
+/*   Updated: 2024/10/15 19:10:57 by dgulec           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stddef.h>
-#include <stdlib.h>
 
 char	*ft_strdup(const char *s1)
 {

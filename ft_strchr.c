@@ -6,21 +6,21 @@
 /*   By: dgulec <dgulec@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/11 16:35:24 by dgulec            #+#    #+#             */
-/*   Updated: 2024/10/14 15:03:34 by dgulec           ###   ########.fr       */
+/*   Updated: 2024/10/16 13:33:20 by dgulec           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stddef.h>
+#include "libft.h"
 
 char	*ft_strchr(const char *s, int c)
 {
-	while (*s)
+	while (*(s))
 	{
 		if (*s == (char)c)
 			return ((char *)s);
 		s++;
 	}
-	if (c == '\0')
+	if (c == '\0' || *s == (char)c)
 		return ((char *)s);
 	return (NULL);
 }

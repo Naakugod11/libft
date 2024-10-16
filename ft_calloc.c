@@ -6,13 +6,11 @@
 /*   By: dgulec <dgulec@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/11 23:22:41 by dgulec            #+#    #+#             */
-/*   Updated: 2024/10/14 17:11:19 by dgulec           ###   ########.fr       */
+/*   Updated: 2024/10/15 19:12:11 by dgulec           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stddef.h>
-#include <stdlib.h>
 
 void	*ft_calloc(size_t count, size_t size)
 {

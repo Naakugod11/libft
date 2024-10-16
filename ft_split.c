@@ -6,13 +6,11 @@
 /*   By: dgulec <dgulec@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/14 18:38:04 by dgulec            #+#    #+#             */
-/*   Updated: 2024/10/15 14:13:33 by dgulec           ###   ########.fr       */
+/*   Updated: 2024/10/15 19:11:13 by dgulec           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stddef.h>
-#include <stdlib.h>
 
 static int	count_words(const char *s, char c);
 static char	*get_next_word(const char **s, char c);

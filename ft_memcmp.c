@@ -6,11 +6,11 @@
 /*   By: dgulec <dgulec@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/11 20:42:14 by dgulec            #+#    #+#             */
-/*   Updated: 2024/10/14 15:48:32 by dgulec           ###   ########.fr       */
+/*   Updated: 2024/10/15 19:11:44 by dgulec           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stddef.h>
+#include "libft.h"
 
 int	ft_memcmp(const void *s1, const void *s2, size_t n)
 {

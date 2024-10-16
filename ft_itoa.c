@@ -6,13 +6,11 @@
 /*   By: dgulec <dgulec@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/15 15:32:29 by dgulec            #+#    #+#             */
-/*   Updated: 2024/10/15 18:24:38 by dgulec           ###   ########.fr       */
+/*   Updated: 2024/10/15 19:12:02 by dgulec           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stddef.h>
-#include <stdlib.h>
 
 static size_t	count_digits(int n);
 static void		makestring(char *str, int n, size_t len);

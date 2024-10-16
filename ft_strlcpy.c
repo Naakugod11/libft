@@ -6,11 +6,11 @@
 /*   By: dgulec <dgulec@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/10 17:53:48 by dgulec            #+#    #+#             */
-/*   Updated: 2024/10/15 13:32:52 by dgulec           ###   ########.fr       */
+/*   Updated: 2024/10/15 19:10:40 by dgulec           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stddef.h>
+#include "libft.h"
 
 size_t	ft_strlcpy(char *dst, const char *src, size_t n)
 {
