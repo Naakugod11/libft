@@ -6,7 +6,7 @@
 /*   By: dgulec <dgulec@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/15 15:32:29 by dgulec            #+#    #+#             */
-/*   Updated: 2024/10/15 19:12:02 by dgulec           ###   ########.fr       */
+/*   Updated: 2024/10/16 18:13:42 by dgulec           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,17 +17,17 @@ static void		makestring(char *str, int n, size_t len);
 
 char	*ft_itoa(int n)
 {
-	char	*result;
+	char	*nbr;
 	size_t	len;
 
 	if (n == -2147483648)
 		return (ft_strdup("-2147483648"));
 	len = count_digits(n);
-	result = (char *)malloc((len + 1) * sizeof(char));
-	if (!result)
+	nbr = (char *)malloc((len + 1) * sizeof(char));
+	if (!nbr)
 		return (NULL);
-	makestring(result, n, len);
-	return (result);
+	makestring(nbr, n, len);
+	return (nbr);
 }
 
 static size_t	count_digits(int n)

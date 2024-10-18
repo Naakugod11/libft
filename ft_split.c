@@ -6,7 +6,7 @@
 /*   By: dgulec <dgulec@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/14 18:38:04 by dgulec            #+#    #+#             */
-/*   Updated: 2024/10/15 19:11:13 by dgulec           ###   ########.fr       */
+/*   Updated: 2024/10/18 14:33:09 by dgulec           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ char	**ft_split(char const *s, char c)
 	if (!s)
 		return (NULL);
 	wordcount = count_words(s, c);
-	result = (char **)malloc((wordcount +1) * sizeof(char *));
+	result = (char **)malloc((wordcount + 1) * sizeof(char *));
 	if (!result)
 		return (NULL);
 	x = 0;
